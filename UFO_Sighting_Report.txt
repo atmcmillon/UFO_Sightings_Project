@@ -16,6 +16,21 @@ b. Outside of the US, are these sightings also hysteria or culturally related?
 3. Have UFO sightings increased over the years? Are they stable or decreasing with the advent
 and advance of modern human visual recording equipment?
 
+Methodology: Python is a widely used and understood language by programmers and lay people alike,
+so this will be my main file for writing queries, searching data, and cleaning data. Modules such
+as Pandas, SweetViz, and NumPy are excellent libraries for data structuring and arranging.
+Datetime is a good library for cleaning up columns with time-sensitive data; as in this case the
+datetime column(when the sighting occurred), date posted column, event durations(both hours/minutes
+and seconds), and even start times.
+
+The SweetViz library is an excellent library that modifies the existing data structure into an .html
+file, after forming statistics on columns. It performs this via the python file and terminal, and
+at completion opens a window in a user's browser for the appropriate graphs of the data. Eventually
+in my work on specific questions I will use the matplotlib libraries and potentially seaborn to make
+pretty graphs for users who wish to see the data for themselves, rather than the report. I also want
+to eventually use geopandas, based on matplotlib to graph sighting locations on a global map using
+the lat/lon columns.
+
 Research:
 1. UFO sightings typically occur in the US, making up over 85% of the reports and counting; given
 that this dataset is incomplete. Fortunately cities from other countries where the country column
