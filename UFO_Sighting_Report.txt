@@ -1,0 +1,28 @@
+Abstract: This project is a look into UFO sightings from across the United States, Great Britain,
+Canada, and many other countries. The data is hastily cobbled from a data collection from Kaggle.com,
+and it's original source is NUFORC, or the National Unidentified Flying Object Reporting Center.
+
+I intend to use this data project as practice for data science and data analysis, and ask questions
+such as:
+
+1. How common are UFO sightings to certain areas? 
+a. Namely in the US, to certain states, and with regards to the shape of the UFO?
+b. In other countries, are the UFO shapes possibly culturally linked?
+
+2. How common are UFO sightings among certain dates?
+a. In the US, are these sightings correlated with dates of hysteria over other political fears?
+b. Outside of the US, are these sightings also hysteria or culturally related?
+
+3. Have UFO sightings increased over the years? Are they stable or decreasing with the advent
+and advance of modern human visual recording equipment?
+
+Research:
+1. UFO sightings typically occur in the US, making up over 85% of the reports and counting; given
+that this dataset is incomplete. Fortunately cities from other countries where the country column
+is empty are marked with the country in the city tab. US states are listed specifically a majority
+of the time. Canada follows in 2nd, with closer to 5% of sightings reported. Obviously this is
+biased towards reports from the US, when NUFORC is a US-based organization. This data was gathered
+using the SweetViz data visualisation tool/module for the python language.
+
+1.a. Also using SweetViz on the states column, the top 5 US states for sightings are California
+(~12%), Washington, Florida, Texas, and New York; each of the latter 4 having ~5% of the reports. 
